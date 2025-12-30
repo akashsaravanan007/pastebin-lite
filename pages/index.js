@@ -14,7 +14,7 @@ export default function Home() {
 
     const newWarnings = {};
 
-    // 🔍 Validation
+    // Validation
     if (!content.trim()) {
       newWarnings.content = "Paste content is required.";
     }
