@@ -1,0 +1,19 @@
+{
+  "name": "pastebin-lite",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "pg": "^8.11.5"
+  },
+  "engines": {
+  "node": ">=18.17.0"
+}
+
+}

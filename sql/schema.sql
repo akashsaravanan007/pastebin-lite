@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS pastes (
+  id TEXT PRIMARY KEY,
+  content TEXT NOT NULL,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+  expires_at TIMESTAMPTZ,
+  max_views INTEGER,
+  view_count INTEGER NOT NULL DEFAULT 0
+);
